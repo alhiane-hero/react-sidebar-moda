@@ -1,0 +1,85 @@
+:root {
+    --whiteColor: #fff;
+    --blackColor: #111;
+    --mainColor: #49a6e9;
+}
+
+.sideBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100vh;
+    background-color: var(--whiteColor);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    transition: width .3s ease-in-out;
+    overflow: hidden;
+}
+
+.showSideBar {
+    width: 400px;
+    max-width: 100%;
+}
+
+.sideBar header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.sideBar header img {
+    height: 40px;
+}
+
+.sideBar header .closeAside {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #bb2525;
+}
+
+.sideBar .Links ul {
+    list-style-type: none;
+}
+
+.sideBar .Links ul li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    font-size: 1.25rem;
+    color: #324d67;
+    transition: all .3s ease-in-out;
+}
+
+.sideBar .Links ul li a svg {
+    font-size: 1.5rem;
+    color: #617d98;
+    margin-right: 1.5rem;
+}
+
+.sideBar .Links ul li a:hover {
+    background-color: #f1f5f8;
+    color: #243a52;
+}
+
+.sideBar footer {
+    padding-bottom: 2rem;
+}
+
+.sideBar footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.sideBar footer ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 0 .7rem;
+    font-size: 1.5rem;
+    color: var(--mainColor);
+}

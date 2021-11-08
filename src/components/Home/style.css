@@ -1,0 +1,36 @@
+:root {
+    --whiteColor: #fff;
+    --blackColor: #111;
+    --mainColor: #49a6e9;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+main button.toggleAside {
+    position: fixed;
+    top: 2rem;
+    left: 3rem;
+    font-size: 2rem;
+    color: var(--mainColor);
+}
+
+main button.openModal {
+    padding: .375rem .75rem;
+    background-color: var(--blackColor);
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--whiteColor);
+    border-radius: .3rem;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+}
