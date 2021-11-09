@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-sidebar-modal/static/css/main.d30d37c6.chunk.css",
+    "main.js": "/react-sidebar-modal/static/js/main.caa8f89f.chunk.js",
+    "main.js.map": "/react-sidebar-modal/static/js/main.caa8f89f.chunk.js.map",
+    "runtime-main.js": "/react-sidebar-modal/static/js/runtime-main.acfa9b21.js",
+    "runtime-main.js.map": "/react-sidebar-modal/static/js/runtime-main.acfa9b21.js.map",
+    "static/js/2.44c43090.chunk.js": "/react-sidebar-modal/static/js/2.44c43090.chunk.js",
+    "static/js/2.44c43090.chunk.js.map": "/react-sidebar-modal/static/js/2.44c43090.chunk.js.map",
+    "static/js/3.1a084da6.chunk.js": "/react-sidebar-modal/static/js/3.1a084da6.chunk.js",
+    "static/js/3.1a084da6.chunk.js.map": "/react-sidebar-modal/static/js/3.1a084da6.chunk.js.map",
+    "index.html": "/react-sidebar-modal/index.html",
+    "static/css/main.d30d37c6.chunk.css.map": "/react-sidebar-modal/static/css/main.d30d37c6.chunk.css.map",
+    "static/js/2.44c43090.chunk.js.LICENSE.txt": "/react-sidebar-modal/static/js/2.44c43090.chunk.js.LICENSE.txt",
+    "static/media/Logo.f13078c1.svg": "/react-sidebar-modal/static/media/Logo.f13078c1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.acfa9b21.js",
+    "static/js/2.44c43090.chunk.js",
+    "static/css/main.d30d37c6.chunk.css",
+    "static/js/main.caa8f89f.chunk.js"
+  ]
+}
